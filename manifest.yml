@@ -1,0 +1,8 @@
+applications:
+- name: jt-microservice
+path: target/pcf-cloud-config.jar
+domain: cfapps.io
+memory: 1G
+instances: 1
+services:
+- config-server
